@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MagicalRhymes1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_android">Explore</string>
+    <string name="title_activity_ios">Words</string>
+    <string name="title_activity_windows">Story</string>
+    <string name="title_activity_explore_click">MagicalExplore</string>
+    <string name="title_activity_words_click">MagicalWords</string>
+    <string name="title_activity_story_click">MagicalStory</string>
+    <string name="title_activity_level_four">LevelFour</string>
+</resources>

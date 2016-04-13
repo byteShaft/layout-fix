@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_gravity="bottom"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="295dp"
+        android:layout_toLeftOf="@+id/ivLevel2"
+        android:background="@drawable/arrow_left" />
+
+    <ImageView
+
+        android:id="@+id/ivLevel2"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:src="@drawable/leveltwo" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="295dp"
+        android:layout_toRightOf="@+id/ivLevel2"
+        android:background="@drawable/arrow_right" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivLevel2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/buttonone" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/buttontwoclick" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/buttonthree" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/buttonfour" />
+    </LinearLayout>
+
+</RelativeLayout>
